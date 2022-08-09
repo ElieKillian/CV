@@ -14,7 +14,6 @@ body
     display: flex;
     flex-direction: column;
     max-width: 70%;
-    margin: auto;
     justify-content: left;
     text-align: justify;
 }
@@ -22,17 +21,16 @@ body
 {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 20%;
     border-right: 1px gray inset;
     justify-content: center;
     text-align: left;
-    margin: 10px;
 }
 #conteneur
 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     width: 80%;
 }
 #footer
@@ -61,7 +59,7 @@ h3
 float: top;
 }
 
-@media all and (max-width: 1280px)
+@media all and (max-width: 800px)
 {
     #conteneur
     {
